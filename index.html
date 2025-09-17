@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <!--<< Header Area >>-->
   <head>
-    <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,29 +9,53 @@
       name="description"
       content="Fresheat food & Restaurant Html Template"
     />
-    <!-- ======== Page title ============ -->
     <title>Dingo</title>
-    <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/favicon.png" />
-    <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< All Min Css >>-->
     <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!--<< Animate.css >>-->
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Magnific Popup.css >>-->
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
     <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Swiper Bundle.css >>-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
     <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .container-boton {
+        background-color: #25d366;
+        border: 1px solid #fff;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+      }
+
+      .container-boton:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+      }
+
+      .boton {
+        width: 40px;
+        height: 40px;
+        transition: ease 1s;
+      }
+
+      @keyframes efecto {
+        0% {
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+        }
+        100% {
+          box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+        }
+      }
+    </style>
   </head>
+
   <body class="dark-mood">
-    <!-- Preloader Start -->
     <div id="preloader" class="preloader">
       <div class="animation-preloader">
         <div class="spinner"></div>
@@ -63,11 +85,11 @@
         </div>
       </div>
     </div>
-    <!-- Back To Top Start -->
+
     <button id="back-top" class="back-to-top">
       <i class="fa-regular fa-arrow-up"></i>
     </button>
-    <!-- Offcanvas Area Start -->
+
     <div class="fix-area">
       <div class="offcanvas__info">
         <div class="offcanvas__wrapper">
@@ -87,10 +109,16 @@
               </div>
             </div>
             <p class="text d-none d-lg-block">
-En Dingo, somos una empresa líder en logística de alimentos a domicilio, especializada en ofrecer una experiencia culinaria completa y eficiente. Con un enfoque integral, combinamos una amplia variedad de platos —desde comida rápida hasta opciones saludables— con una operación logística optimizada que asegura entregas rápidas, seguras y puntuales.
+              En Dingo, somos una empresa líder en logística de alimentos a
+              domicilio, especializada en ofrecer una experiencia culinaria
+              completa y eficiente. Con un enfoque integral, combinamos una
+              amplia variedad de platos —desde comida rápida hasta opciones
+              saludables— con una operación logística optimizada que asegura
+              entregas rápidas, seguras y puntuales.
+            </p>
+
             <div class="offcanvas-gallery-area d-none d-xl-block">
-              <div class="offcanvas-gallery-items">
-              </div>
+              <div class="offcanvas-gallery-items"></div>
             </div>
             <div class="mobile-menu fix mb-3"></div>
             <div class="offcanvas__contact">
@@ -136,10 +164,10 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                 </li>
               </ul>
               <div class="header-button mt-4">
-                  <span
-                    class="button-content-wrapper d-flex align-items-center justify-content-center"
-                  >
-                  </span>
+                <span
+                  class="button-content-wrapper d-flex align-items-center justify-content-center"
+                >
+                </span>
                 </a>
               </div>
               <div class="social-icon d-flex align-items-center">
@@ -153,9 +181,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
+
     <div class="offcanvas__overlay"></div>
-    <!-- Offcanvas Area End -->
-    <!-- Header Section Start -->
     <header class="header-section-3">
       <div class="container-fluid">
         <div class="main-header-wrapper">
@@ -189,24 +216,22 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                           src="assets/img/header/home1.jpg"
                                           alt="img"
                                         />
-                                          <a                                           
-                                          >
-                                        <div class="demo-button">
-                                          <a        
-                                          >   
-                                          </a>
-                                          <a    
-                                          > 
-                                          </a>
-                                          <a
-                                            href="index.html"
-                                            class="theme-btn"
-                                          >
-                                            Inicio
-                                          </a>
-                                        </div>
+                                        <a>
+                                          <div class="demo-button">
+                                            <a> </a>
+                                            <a> </a>
+                                            <a
+                                              href="index.html"
+                                              class="theme-btn"
+                                            >
+                                              Inicio
+                                            </a>
+                                          </div>
+                                        </a>
                                       </div>
-                                      <div class="homemenu-content text-center">
+                                      <div
+                                        class="homemenu-content text-center"
+                                      >
                                         <h4 class="homemenu-title">Inicio</h4>
                                       </div>
                                     </div>
@@ -229,7 +254,9 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                 <i class="fa-regular fa-plus"></i>
                               </a>
                               <ul class="submenu">
-                                <li><a href="about.html">Sobre nosotros</a></li>
+                                <li>
+                                  <a href="about.html">Sobre nosotros</a>
+                                </li>
                               </ul>
                             </li>
                             <li>
@@ -242,9 +269,9 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                 </a>
                               </div>
                             </li>
+
                             <li class="has-dropdown">
-                              <a href="#">
-                              </a>
+                              <a href="#"> </a>
                               <ul class="submenu">
                                 <li class="has-dropdown">
                                   <a href="chef.html">
@@ -253,14 +280,10 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                   <ul class="submenu">
                                     <li><a href="chef.html">Chef</a></li>
                                     <li>
-                                      <a href="chef-details.html"
-                                        > </a
-                                      >
+                                      <a href="chef-details.html"> </a>
                                     </li>
                                     <li>
-                                      <a href="chef-details2.html"
-                                        > </a
-                                      >
+                                      <a href="chef-details2.html"> </a>
                                     </li>
                                   </ul>
                                 </li>
@@ -269,21 +292,17 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                     <i class="fas fa-angle-down"></i>
                                   </a>
                                   <ul class="submenu">
-                                    <li>
-                                    </li>
-                                    <li>
-                                    </li>
+                                    <li></li>
+                                    <li></li>
                                   </ul>
                                 </li>
                                 <li class="has-dropdown">
-                                    <i class="fas fa-angle-down"></i>
+                                  <i class="fas fa-angle-down"></i>
                                   </a>
                                   <ul class="submenu">
                                     <li><a href="gallery.html"> </a></li>
                                     <li>
-                                      <a href="gallery-bento-grid.html"
-                                        > </a
-                                      >
+                                      <a href="gallery-bento-grid.html"> </a>
                                     </li>
                                   </ul>
                                 </li>
@@ -335,15 +354,12 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                             </li>
                             <li>
                               <a hhref="blog.html"> </a>
+
                               <ul class="submenu">
                                 <li></li>
-                                <li>
-                                </li>
-                                <li>
-                                  >
-                                </li>
-                                <li>
-                                </li>
+                                <li></li>
+                                <li>></li>
+                                <li></li>
                               </ul>
                             </li>
                             <li>
@@ -355,8 +371,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                                 <li>
                                   <a href="contact.html">Contactanos</a>
                                 </li>
-                                <li>
-                                </li>
+                                <li></li>
                               </ul>
                             </li>
                           </ul>
@@ -384,228 +399,228 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </header>
-    <!-- Header Section End -->
-    <!-- Header Section Start -->
-<section class="banner-section fix">
-  <div class="slider-area">
-    <div class="banner-wrapper style3 bg-img">
-      <!-- 🔥 shape1 ahora siempre visible -->
-      <div
-        class="shape1"
-        data-animation="slideInLeft"
-        data-duration="2s"
-        data-delay=".3s"
-      >
-        <img
-          class="float-bob-y"
-          src="assets/img/shape/bannerShape3_1.svg"
-          alt="shape"
-        />
-      </div>
-      <!-- 🔥 shape2 ahora siempre visible -->
-      <div
-        class="shape2"
-        data-animation="slideInLeft"
-        data-duration="2s"
-        data-delay=".5s"
-      >
-        <img
-          class="float-bob-x"
-          src="assets/img/shape/bannerShape3_2.svg"
-          alt="shape"
-        />
-      </div>
-      <!-- 🔥 shape3 ya estaba corregida -->
-      <div
-        class="shape3"
-        data-tilt
-        data-tilt-max="4"
-        data-animation="slideInLeft"
-        data-duration="2s"
-        data-delay=".8s"
-      >
-        <img src="assets/img/shape/bannerShape3_3.png" alt="shape" />
-      </div>
-      <!-- 🔥 shape4 ahora siempre visible -->
-      <div
-        class="shape4"
-        data-animation="slideInLeft"
-        data-duration="2s"
-        data-delay="1s"
-      >
-        <img src="assets/img/shape/bannerShape3_4.svg" alt="shape" />
-      </div>
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner-style3">
-              <br>
-                <div class="subtitle">DINGO</div>
-              </br>
-              <h6 class="title"><span> </span></h6>
-              <p>
-                "Nos especializamos en ofrecer soluciones integrales como intermediarios en el sistema alimentario. Gracias a nuestra gestión, tú puedes disfrutar de una experiencia gastronómica eficiente, segura y sin complicaciones."
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="banner-bottom z-3 position-relative">
-        <div
-          class="container-fluid d-flex align-items-center justify-content-between"
-        >
-          <div class="fancy-item">
-            <i class="fa-solid fa-location-dot text-theme-color2"></i>
-            <span class="text-white">+57 317 3538 933</span>
-          </div>
+    <section class="banner-section fix">
+      <div class="slider-area">
+        <div class="banner-wrapper style3 bg-img">
           <div
-            class="social-meta d-flex flex-column flex-md-row align-items-center gap-2"
+            class="shape1"
+            data-animation="slideInLeft"
+            data-duration="2s"
+            data-delay=".3s"
           >
-            <p class="text-white">Síguenos:</p>
-            <ul class="d-flex align-items-center gap-2">
-              <li>
-                <a hhref="https://www.facebook.com">
-                  <i class="fa-brands fa-facebook text-white"></i>
-                </a>
-              </li>
-              <li>
-                <a hhref="https://www.twitter.com">
-                  <i class="fa-brands fa-twitter text-white"></i>
-                </a>
-              </li>
-              <li>
-                <a hhref="https://www.linkedin.com">
-                  <i class="fa-brands fa-linkedin-in text-white"></i>
-                </a>
-              </li>
-              <li>
-                <a hhref="https://www.youtube.com">
-                  <i class="fa-brands fa-youtube text-white"></i>
-                </a>
-              </li>
-            </ul>
+            <img
+              class="float-bob-y"
+              src="assets/img/shape/bannerShape3_1.svg"
+              alt="shape"
+            />
+          </div>
+
+          <div
+            class="shape2"
+            data-animation="slideInLeft"
+            data-duration="2s"
+            data-delay=".5s"
+          >
+            <img
+              class="float-bob-x"
+              src="assets/img/shape/bannerShape3_2.svg"
+              alt="shape"
+            />
+          </div>
+
+          <div
+            class="shape3"
+            data-tilt
+            data-tilt-max="4"
+            data-animation="slideInLeft"
+            data-duration="2s"
+            data-delay=".8s"
+          >
+            <img src="assets/img/shape/bannerShape3_3.png" alt="shape" />
+          </div>
+
+          <div
+            class="shape4"
+            data-animation="slideInLeft"
+            data-duration="2s"
+            data-delay="1s"
+          >
+            <img src="assets/img/shape/bannerShape3_4.svg" alt="shape" />
+          </div>
+
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="banner-style3">
+                  <br />
+                  <div class="subtitle">DINGO</div>
+                  </br>
+                  <h6 class="title"><span> </span></h6>
+                  <p>
+                    "Nos especializamos en ofrecer soluciones integrales como
+                    intermediarios en el sistema alimentario. Gracias a nuestra
+                    gestión, tú puedes disfrutar de una experiencia
+                    gastronómica eficiente, segura y sin complicaciones."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner-bottom z-3 position-relative">
+            <div
+              class="container-fluid d-flex align-items-center justify-content-between"
+            >
+              <div class="fancy-item">
+                <i class="fa-solid fa-location-dot text-theme-color2"></i>
+                <span class="text-white">+57 317 3538 933</span>
+              </div>
+              <div
+                class="social-meta d-flex flex-column flex-md-row align-items-center gap-2"
+              >
+                <p class="text-white">Síguenos:</p>
+                <ul class="d-flex align-items-center gap-2">
+                  <li>
+                    <a hhref="https://www.facebook.com">
+                      <i class="fa-brands fa-facebook text-white"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a hhref="https://www.twitter.com">
+                      <i class="fa-brands fa-twitter text-white"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a hhref="https://www.linkedin.com">
+                      <i class="fa-brands fa-linkedin-in text-white"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a hhref="https://www.youtube.com">
+                      <i class="fa-brands fa-youtube text-white"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- 🔧 CSS extra para que todas las shapes estén siempre arriba del overlay -->
-<style>
-  .shape1 img,
-  .shape2 img,
-  .shape3 img,
-  .shape4 img {
-    position: relative;
-    z-index: 5;
-  }
-  .overlay {
-    z-index: 1;
-  }
-</style>
-<!-- Header Section End -->
-<!-- Popular Dishes Section   S T A R T -->
-<section class="popular-dishes-section fix section-padding pb-0">
-  <div class="popular-dishes-wrapper-container">
-    <div class="container">
-      <div class="popular-dishes-wrapper style4">
-        <div class="shape1 float-bob-x d-none d-xxl-block">
-          <img src="assets/img/shape/dishesShape5_1.png" alt="shape" />
-        </div>
+    </section>
+
+    <style>
+      .shape1 img,
+      .shape2 img,
+      .shape3 img,
+      .shape4 img {
+        position: relative;
+        z-index: 5;
+      }
+
+      .overlay {
+        z-index: 1;
+      }
+    </style>
+
+    <section class="popular-dishes-section fix section-padding pb-0">
+      <div class="popular-dishes-wrapper-container">
         <div class="container">
-          <div class="title-area mb-45">
-            <div
-              class="sub-title text-center wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
+          <div class="popular-dishes-wrapper style4">
+            <div class="shape1 float-bob-x d-none d-xxl-block">
+              <img src="assets/img/shape/dishesShape5_1.png" alt="shape" />
             </div>
-            <h2
-              class="title wow fadeInUp"
-              data-wow-delay="0.7s"
-              style="
-                visibility: visible;
-                animation-delay: 0.7;
-                animation-name: fadeInUp;
-              "
-            >
-              Productos más vendidos
-            </h2>
-          </div>
-          <div class="dishes-card-wrap style4">
-            <!-- Card 1 -->
-            <div
-              class="dishes-card style5 wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
-              <div class="dishes-thumb">
-                <img src="assets/img/dishes/dishes6_1.png" alt="thumb" />
+            <div class="container">
+              <div class="title-area mb-45">
+                <div
+                  class="sub-title text-center wow fadeInUp"
+                  data-wow-delay="0.5s"
+                ></div>
+                <h2
+                  class="title wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.7s;
+                    animation-name: fadeInUp;
+                  "
+                >
+                  Productos más vendidos
+                </h2>
               </div>
-              <div class="dishes-content">
-                <a href="#">
-                  <h3>Caja De Empanadas 10uds</h3>
-                </a>
-                <div class="star">
-                  <img src="assets/img/icon/star4.svg" alt="icon" />
+              <div class="dishes-card-wrap style4">
+                <div
+                  class="dishes-card style5 wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <div class="dishes-thumb">
+                    <img src="assets/img/dishes/dishes6_1.png" alt="thumb" />
+                  </div>
+                  <div class="dishes-content">
+                    <a href="#">
+                      <h3>Caja De Empanadas 10uds</h3>
+                    </a>
+                    <div class="star">
+                      <img src="assets/img/icon/star4.svg" alt="icon" />
+                    </div>
+                    <div class="text">Empanadas y Ají Donde Rosita</div>
+                    <h6>$20.000 COP</h6>
+                    <a href="#" class="theme-btn style6">
+                      ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="text">Empanadas y Ají Donde Rosita</div>
-                <h6>$20.000 COP</h6>
-                <a href="#" class="theme-btn style6">
-                  ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Card 2 -->
-            <div
-              class="dishes-card style5 wow fadeInUp"
-              data-wow-delay="0.6s"
-            >
-              <div class="dishes-thumb">
-                <img src="assets/img/dishes/dishes6_2.png" alt="thumb" />
-              </div>
-              <div class="dishes-content">
-                <a href="#">
-                  <h3>POLLO A LA BROASTER O ASADO</h3>
-                </a>
-                <div class="star">
-                  <img src="assets/img/icon/star3.svg" alt="icon" />
+
+                <div
+                  class="dishes-card style5 wow fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  <div class="dishes-thumb">
+                    <img src="assets/img/dishes/dishes6_2.png" alt="thumb" />
+                  </div>
+                  <div class="dishes-content">
+                    <a href="#">
+                      <h3>POLLO A LA BROASTER O ASADO</h3>
+                    </a>
+                    <div class="star">
+                      <img src="assets/img/icon/star3.svg" alt="icon" />
+                    </div>
+                    <div class="text">POLLO FELIZ</div>
+                    <h6>$30.000 COP</h6>
+                    <a href="#" class="theme-btn style6">
+                      ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="text">POLLO FELIZ</div>
-                <h6>$30.000 COP</h6>
-                <a href="#" class="theme-btn style6">
-                  ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
-                </a>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div
-              class="dishes-card style5 wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <div class="dishes-thumb">
-                <img src="assets/img/dishes/dishes6_3.png" alt="thumb" />
-              </div>
-              <div class="dishes-content">
-                <a href="#">
-                  <h3>HAMBURGUESA ARTESANAL</h3>
-                </a>
-                <div class="star">
-                  <img src="assets/img/icon/star4.svg" alt="icon" />
+
+                <div
+                  class="dishes-card style5 wow fadeInUp"
+                  data-wow-delay="0.8s"
+                >
+                  <div class="dishes-thumb">
+                    <img src="assets/img/dishes/dishes6_3.png" alt="thumb" />
+                  </div>
+                  <div class="dishes-content">
+                    <a href="#">
+                      <h3>HAMBURGUESA ARTESANAL</h3>
+                    </a>
+                    <div class="star">
+                      <img src="assets/img/icon/star4.svg" alt="icon" />
+                    </div>
+                    <div class="text">EL VIKINGO</div>
+                    <h6>$28.000 COP</h6>
+                    <a href="#" class="theme-btn style6">
+                      ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="text">EL VIKINGO</div>
-                <h6>$28.000 COP</h6>
-                <a href="#" class="theme-btn style6">
-                  ORDENA YA <i class="fa-regular fa-basket-shopping"></i>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-    <!-- About Section   S T A R T -->
+    </section>
+
     <div class="about-section fix">
       <div class="about-wrapper section-padding style3">
         <div class="shape1">
@@ -639,7 +654,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                     class="sub-title text-start wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    Nuestros servicios 
+                    Nuestros servicios
                   </div>
                   <h2
                     class="title text-start wow fadeInUp"
@@ -651,13 +666,22 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                     class="text text-start wow fadeInUp"
                     data-wow-delay="0.8s"
                   >
-                   En Dingo, somos una empresa líder en logística de alimentos a domicilio, especializada en ofrecer una experiencia culinaria completa y eficiente. Con un enfoque integral, combinamos una amplia variedad de platos —desde comida rápida hasta opciones saludables— con una operación logística optimizada que asegura entregas rápidas, seguras y puntuales.
+                    En Dingo, somos una empresa líder en logística de alimentos
+                    a domicilio, especializada en ofrecer una experiencia
+                    culinaria completa y eficiente. Con un enfoque integral,
+                    combinamos una amplia variedad de platos —desde comida
+                    rápida hasta opciones saludables— con una operación
+                    logística optimizada que asegura entregas rápidas, seguras
+                    y puntuales.
                   </div>
                 </div>
                 <div class="fancy-box-wrapper">
                   <div class="fancy-box">
                     <div class="item">
-                      <img src="assets/img/icon/aboutIcon2_1.svg" alt="icon" />
+                      <img
+                        src="assets/img/icon/aboutIcon2_1.svg"
+                        alt="icon"
+                      />
                     </div>
                     <div class="item">
                       <h6>Envios Rapidos</h6>
@@ -666,7 +690,10 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                   </div>
                   <div class="fancy-box">
                     <div class="item">
-                      <img src="assets/img/icon/aboutIcon2_2.svg" alt="icon" />
+                      <img
+                        src="assets/img/icon/aboutIcon2_2.svg"
+                        alt="icon"
+                      />
                     </div>
                     <div class="item">
                       <h6>Restaurantes Calificados y Verificados</h6>
@@ -675,7 +702,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                   </div>
                 </div>
                 <a href="about.html" class="theme-btn style4">
-                  Sobre Nosotros <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                  Sobre Nosotros
+                  <i class="fa-sharp fa-regular fa-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -683,467 +711,607 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
-    <!-- Food Menu section  S T A R T -->
-<section class="food-menu-section fix">
-  <div class="food-menu-wrapper style3">
-    <div class="container">
-      <div class="food-menu-tab-wrapper style3 section-padding bg-dark rounded-5">
-        <!-- Shapes decorativos -->
-        <div class="shape1 d-none d-xl-block">
-          <img class="float-bob-x" src="assets/img/shape/foodmenuShape3_1.png" alt="shape" />
-        </div>
-        <div class="shape2 d-none d-xl-block">
-          <img class="float-bob-y" src="assets/img/shape/foodmenuShape3_2.png" alt="shape" />
-        </div>
-        <div class="shape3 d-none d-xl-block">
-          <img class="float-bob-y" src="assets/img/shape/foodmenuShape3_3.png" alt="shape" />
-        </div>
-        <!-- Título -->
-        <div class="title-area">
-          <div class="sub-title text-center wow fadeInUp" data-wow-delay="0.5s">
-            PLATOS DELICIOSOS
-          </div>
-          <h2 class="title wow fadeInUp" data-wow-delay="0.7s">
-            PARA SACIAR TU HAMBRE
-          </h2>
-        </div>
-        <!-- Tabs -->
-        <div class="food-menu-tab style2">
-          <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-1-tab"
-                data-bs-toggle="pill" data-bs-target="#pills-1"
-                type="button" role="tab" aria-controls="pills-1"
-                aria-selected="true">
-                Comida Rápida
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-2-tab"
-                data-bs-toggle="pill" data-bs-target="#pills-2"
-                type="button" role="tab" aria-controls="pills-2"
-                aria-selected="false">
-                Alta Cocina
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-3-tab"
-                data-bs-toggle="pill" data-bs-target="#pills-3"
-                type="button" role="tab" aria-controls="pills-3"
-                aria-selected="false">
-                De La Casa
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-4-tab"
-                data-bs-toggle="pill" data-bs-target="#pills-4"
-                type="button" role="tab" aria-controls="pills-4"
-                aria-selected="false">
-                Vegetariano
-              </button>
-            </li>
-          </ul>
-          <!-- Contenido -->
-          <div class="tab-content" id="pills-tabContent">
-            <!-- 1 Comida Rápida -->
-            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-              <div class="row gx-60">
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍔 Hamburguesa Paisa</h3>
-                          <br>📍 Burguer Antioquia<br>
-                        </a>
-                        <p>Con huevo, tajadas de maduro, queso y arepa pequeña.</p>
+    <section class="food-menu-section fix">
+      <div class="food-menu-wrapper style3">
+        <div class="container">
+          <div
+            class="food-menu-tab-wrapper style3 section-padding bg-dark rounded-5"
+          >
+            <div class="shape1 d-none d-xl-block">
+              <img
+                class="float-bob-x"
+                src="assets/img/shape/foodmenuShape3_1.png"
+                alt="shape"
+              />
+            </div>
+            <div class="shape2 d-none d-xl-block">
+              <img
+                class="float-bob-y"
+                src="assets/img/shape/foodmenuShape3_2.png"
+                alt="shape"
+              />
+            </div>
+            <div class="shape3 d-none d-xl-block">
+              <img
+                class="float-bob-y"
+                src="assets/img/shape/foodmenuShape3_3.png"
+                alt="shape"
+              />
+            </div>
+
+            <div class="title-area">
+              <div
+                class="sub-title text-center wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                PLATOS DELICIOSOS
+              </div>
+              <h2 class="title wow fadeInUp" data-wow-delay="0.7s">
+                PARA SACIAR TU HAMBRE
+              </h2>
+            </div>
+
+            <div class="food-menu-tab style2">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-1-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-1"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-1"
+                    aria-selected="true"
+                  >
+                    Comida Rápida
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-2"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-2"
+                    aria-selected="false"
+                  >
+                    Alta Cocina
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-3"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-3"
+                    aria-selected="false"
+                  >
+                    De La Casa
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-4"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-4"
+                    aria-selected="false"
+                  >
+                    Vegetariano
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-1"
+                  role="tabpanel"
+                  aria-labelledby="pills-1-tab"
+                >
+                  <div class="row gx-60">
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍔 Hamburguesa Paisa</h3>
+                              <br />📍 Burguer Antioquia<br />
+                            </a>
+                            <p>
+                              Con huevo, tajadas de maduro, queso y arepa
+                              pequeña.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$25.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🌭 Perro Caliente Mixto</h3>
+                              <br />📍 Perros Don Julio<br />
+                            </a>
+                            <p>
+                              Con pollo desmechado, queso rallado y papitas
+                              fosforito.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$18.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍟 Salchipapas</h3>
+                              <br />📍 El Parche de la 70<br />
+                            </a>
+                            <p>
+                              Papas fritas con salchicha, queso y salsas
+                              caseras.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$16.900 COP</h6>
                       </div>
                     </div>
-                    <h6>$25.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🌭 Perro Caliente Mixto</h3>
-                          <br>📍 Perros Don Julio<br>
-                        </a>
-                        <p>Con pollo desmechado, queso rallado y papitas fosforito.</p>
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍕 Pizza Personal</h3>
+                              <br />📍 Pizza al Paso<br />
+                            </a>
+                            <p>
+                              Masa artesanal con mozzarella, jamón y salsa de
+                              tomate.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$22.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🌽 Mazorcada Especial</h3>
+                              <br />📍 Maíz y Sabor<br />
+                            </a>
+                            <p>
+                              Mazorcas desgranadas con queso, pollo, tocineta y
+                              salsas.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$19.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍗 Alitas BBQ</h3>
+                              <br />📍 Wings & Beer<br />
+                            </a>
+                            <p>
+                              Porción de alitas bañadas en salsa BBQ con papas
+                              fritas.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$27.900 COP</h6>
                       </div>
                     </div>
-                    <h6>$18.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍟 Salchipapas</h3>
-                          <br>📍 El Parche de la 70<br>
-                        </a>
-                        <p>Papas fritas con salchicha, queso y salsas caseras.</p>
-                      </div>
-                    </div>
-                    <h6>$16.900 COP</h6>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍕 Pizza Personal</h3>
-                          <br>📍 Pizza al Paso<br>
-                        </a>
-                        <p>Masa artesanal con mozzarella, jamón y salsa de tomate.</p>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-2"
+                  role="tabpanel"
+                  aria-labelledby="pills-2-tab"
+                >
+                  <div class="row gx-60">
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🦀 Cazuela de Mariscos</h3>
+                              <br />📍 Mar de Luna<br />
+                            </a>
+                            <p>
+                              Camarones, langostinos y pescado fresco en salsa
+                              cremosa.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$52.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥩 Filete Mignon</h3>
+                              <br />📍 La Cava Gourmet<br />
+                            </a>
+                            <p>
+                              Medallón de res envuelto en tocineta con puré de
+                              papa trufado.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$64.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🐟 Trucha al Vino Blanco</h3>
+                              <br />📍 Altamira Cocina Fina<br />
+                            </a>
+                            <p>
+                              Trucha fresca bañada en reducción de vino blanco y
+                              alcaparras.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$47.900 COP</h6>
                       </div>
                     </div>
-                    <h6>$22.500 COP</h6>
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🦞 Langosta Thermidor</h3>
+                              <br />📍 Bahía Dorada<br />
+                            </a>
+                            <p>
+                              Rellena con crema de champiñones, vino y queso
+                              gratinado.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$98.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥗 Ensalada Mediterránea</h3>
+                              <br />📍 Oliva & Vino<br />
+                            </a>
+                            <p>
+                              Aceitunas, tomate cherry, pepino, queso feta y
+                              aceite de oliva.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$34.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍝 Risotto de Champiñones</h3>
+                              <br />📍 La Terraza Italiana<br />
+                            </a>
+                            <p>
+                              Arroz cremoso con champiñones frescos y queso
+                              parmesano.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$39.900 COP</h6>
+                      </div>
+                    </div>
                   </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🌽 Mazorcada Especial</h3>
-                          <br>📍 Maíz y Sabor<br>
-                        </a>
-                        <p>Mazorcas desgranadas con queso, pollo, tocineta y salsas.</p>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-3"
+                  role="tabpanel"
+                  aria-labelledby="pills-3-tab"
+                >
+                  <div class="row gx-60">
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥩 Bandeja Paisa</h3>
+                              <br />📍 Sazón Antioqueño<br />
+                            </a>
+                            <p>
+                              Fríjoles, arroz, carne molida, huevo, chicharrón,
+                              plátano y arepa.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$28.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍲 Sancocho de Gallina</h3>
+                              <br />📍 El Rancho Criollo<br />
+                            </a>
+                            <p>
+                              Sopa típica con gallina criolla, plátano, yuca y
+                              mazorca.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$24.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍖 Chuleta Valluna</h3>
+                              <br />📍 Valle Sabor<br />
+                            </a>
+                            <p>
+                              Chuleta de cerdo apanada con arroz, ensalada y
+                              patacones.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$26.900 COP</h6>
                       </div>
                     </div>
-                    <h6>$19.500 COP</h6>
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥟 Tamal Tolimense</h3>
+                              <br />📍 Tradición Tolimense<br />
+                            </a>
+                            <p>
+                              Masa de maíz con pollo, cerdo, garbanzos y huevo
+                              en hoja de plátano.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$18.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥬 Ajiaco Santafereño</h3>
+                              <br />📍 Fogón Cundiboyacense<br />
+                            </a>
+                            <p>
+                              Sopa de papa criolla, pollo, mazorca y guascas con
+                              crema y alcaparras.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$29.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥗 Corrientazo del Día</h3>
+                              <br />📍 Restaurante El Almuerzo<br />
+                            </a>
+                            <p>
+                              Arroz, sopa del día, carne, ensalada, tajada de
+                              maduro y jugo natural.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$16.500 COP</h6>
+                      </div>
+                    </div>
                   </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍗 Alitas BBQ</h3>
-                          <br>📍 Wings & Beer<br>
-                        </a>
-                        <p>Porción de alitas bañadas en salsa BBQ con papas fritas.</p>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-4"
+                  role="tabpanel"
+                  aria-labelledby="pills-4-tab"
+                >
+                  <div class="row gx-60">
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥗 Ensalada de Quinua</h3>
+                              <br />📍 Verde Natural<br />
+                            </a>
+                            <p>
+                              Con quinua, aguacate, tomate cherry, maíz tierno y
+                              limón.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$22.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍛 Curry de Vegetales</h3>
+                              <br />📍 Sabor Veggie<br />
+                            </a>
+                            <p>
+                              Garbanzos, papa, zanahoria y leche de coco en
+                              especias suaves.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$26.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🥦 Hamburguesa Veggie</h3>
+                              <br />📍 Green Bite<br />
+                            </a>
+                            <p>
+                              Medallón de garbanzos con espinaca y cebolla
+                              caramelizada.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$28.500 COP</h6>
                       </div>
                     </div>
-                    <h6>$27.900 COP</h6>
+                    <div class="col-lg-6">
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🌮 Tacos Vegetarianos</h3>
+                              <br />📍 La Taquería Verde<br />
+                            </a>
+                            <p>
+                              Tortillas con champiñones, aguacate y pico de
+                              gallo fresco.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$24.900 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍝 Pasta al Pesto</h3>
+                              <br />📍 Italia Verde<br />
+                            </a>
+                            <p>
+                              Espaguetis frescos en salsa pesto de albahaca y
+                              piñones.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$27.500 COP</h6>
+                      </div>
+                      <div class="single-menu-items">
+                        <div class="details">
+                          <div class="menu-content">
+                            <a hhref="#">
+                              <h3>🍆 Lasaña de Berenjena</h3>
+                              <br />📍 Delicias Veganas<br />
+                            </a>
+                            <p>
+                              Capas de berenjena con ricotta, espinaca y salsa
+                              napolitana.
+                            </p>
+                          </div>
+                        </div>
+                        <h6>$29.900 COP</h6>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- 2 Alta Cocina -->
-            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-              <div class="row gx-60">
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🦀 Cazuela de Mariscos</h3>
-                          <br>📍 Mar de Luna<br>
-                        </a>
-                        <p>Camarones, langostinos y pescado fresco en salsa cremosa.</p>
-                      </div>
-                    </div>
-                    <h6>$52.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥩 Filete Mignon</h3>
-                          <br>📍 La Cava Gourmet<br>
-                        </a>
-                        <p>Medallón de res envuelto en tocineta con puré de papa trufado.</p>
-                      </div>
-                    </div>
-                    <h6>$64.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🐟 Trucha al Vino Blanco</h3>
-                          <br>📍 Altamira Cocina Fina<br>
-                        </a>
-                        <p>Trucha fresca bañada en reducción de vino blanco y alcaparras.</p>
-                      </div>
-                    </div>
-                    <h6>$47.900 COP</h6>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🦞 Langosta Thermidor</h3>
-                          <br>📍 Bahía Dorada<br>
-                        </a>
-                        <p>Rellena con crema de champiñones, vino y queso gratinado.</p>
-                      </div>
-                    </div>
-                    <h6>$98.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥗 Ensalada Mediterránea</h3>
-                          <br>📍 Oliva & Vino<br>
-                        </a>
-                        <p>Aceitunas, tomate cherry, pepino, queso feta y aceite de oliva.</p>
-                      </div>
-                    </div>
-                    <h6>$34.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍝 Risotto de Champiñones</h3>
-                          <br>📍 La Terraza Italiana<br>
-                        </a>
-                        <p>Arroz cremoso con champiñones frescos y queso parmesano.</p>
-                      </div>
-                    </div>
-                    <h6>$39.900 COP</h6>
-                  </div>
-                </div>
               </div>
             </div>
-            <!-- 3 Corrientazo -->
-            <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
-              <div class="row gx-60">
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥩 Bandeja Paisa</h3>
-                          <br>📍 Sazón Antioqueño<br>
-                        </a>
-                        <p>Fríjoles, arroz, carne molida, huevo, chicharrón, plátano y arepa.</p>
-                      </div>
-                    </div>
-                    <h6>$28.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍲 Sancocho de Gallina</h3>
-                          <br>📍 El Rancho Criollo<br>
-                        </a>
-                        <p>Sopa típica con gallina criolla, plátano, yuca y mazorca.</p>
-                      </div>
-                    </div>
-                    <h6>$24.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍖 Chuleta Valluna</h3>
-                          <br>📍 Valle Sabor<br>
-                        </a>
-                        <p>Chuleta de cerdo apanada con arroz, ensalada y patacones.</p>
-                      </div>
-                    </div>
-                    <h6>$26.900 COP</h6>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥟 Tamal Tolimense</h3>
-                          <br>📍 Tradición Tolimense<br>
-                        </a>
-                        <p>Masa de maíz con pollo, cerdo, garbanzos y huevo en hoja de plátano.</p>
-                      </div>
-                    </div>
-                    <h6>$18.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥬 Ajiaco Santafereño</h3>
-                          <br>📍 Fogón Cundiboyacense<br>
-                        </a>
-                        <p>Sopa de papa criolla, pollo, mazorca y guascas con crema y alcaparras.</p>
-                      </div>
-                    </div>
-                    <h6>$29.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥗 Corrientazo del Día</h3>
-                          <br>📍 Restaurante El Almuerzo<br>
-                        </a>
-                        <p>Arroz, sopa del día, carne, ensalada, tajada de maduro y jugo natural.</p>
-                      </div>
-                    </div>
-                    <h6>$16.500 COP</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 4 Vegetariano -->
-            <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
-              <div class="row gx-60">
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥗 Ensalada de Quinua</h3>
-                          <br>📍 Verde Natural<br>
-                        </a>
-                        <p>Con quinua, aguacate, tomate cherry, maíz tierno y limón.</p>
-                      </div>
-                    </div>
-                    <h6>$22.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍛 Curry de Vegetales</h3>
-                          <br>📍 Sabor Veggie<br>
-                        </a>
-                        <p>Garbanzos, papa, zanahoria y leche de coco en especias suaves.</p>
-                      </div>
-                    </div>
-                    <h6>$26.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🥦 Hamburguesa Veggie</h3>
-                          <br>📍 Green Bite<br>
-                        </a>
-                        <p>Medallón de garbanzos con espinaca y cebolla caramelizada.</p>
-                      </div>
-                    </div>
-                    <h6>$28.500 COP</h6>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🌮 Tacos Vegetarianos</h3>
-                          <br>📍 La Taquería Verde<br>
-                        </a>
-                        <p>Tortillas con champiñones, aguacate y pico de gallo fresco.</p>
-                      </div>
-                    </div>
-                    <h6>$24.900 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍝 Pasta al Pesto</h3>
-                          <br>📍 Italia Verde<br>
-                        </a>
-                        <p>Espaguetis frescos en salsa pesto de albahaca y piñones.</p>
-                      </div>
-                    </div>
-                    <h6>$27.500 COP</h6>
-                  </div>
-                  <div class="single-menu-items">
-                    <div class="details">
-                      <div class="menu-content">
-                        <a hhref="#">
-                          <h3>🍆 Lasaña de Berenjena</h3>
-                          <br>📍 Delicias Veganas<br>
-                        </a>
-                        <p>Capas de berenjena con ricotta, espinaca y salsa napolitana.</p>
-                      </div>
-                    </div>
-                    <h6>$29.900 COP</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- tab-content -->
-        </div><!-- food-menu-tab -->
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee-wrapper style-1 section-padding mb-5">
+      <div class="marquee-inner to-left">
+        <ul class="marqee-list d-flex">
+          <li class="marquee-item style1">
+            <span class="text-slider text-style">Empanadas</span>
+            <span class="text-slider text-style">Pollito Broaster</span>
+            <span class="text-slider text-style">Hamburguesa Artesanal</span>
+            <span class="text-slider text-style">Plato De Lechona</span>
+            <span class="text-slider text-style">Pasta Carbonara</span>
+            <span class="text-slider text-style">Lasaña</span>
+            <span class="text-slider text-style">Empanadas</span>
+            <span class="text-slider text-style">Pollito Broaster</span>
+            <span class="text-slider text-style">Hamburguesa Artesanal</span>
+            <span class="text-slider text-style">Plato De Lechona</span>
+            <span class="text-slider text-style">Pasta Carbonara</span>
+            <span class="text-slider text-style">Lasaña</span>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-</section>
-  <!-- Marquee -->
-  <div class="marquee-wrapper style-1 section-padding mb-5">
-    <div class="marquee-inner to-left">
-      <ul class="marqee-list d-flex">
-        <li class="marquee-item style1">
-          <span class="text-slider text-style">Empanadas</span>
-          <span class="text-slider text-style">Pollito Broaster</span>
-          <span class="text-slider text-style">Hamburguesa Artesanal</span>
-          <span class="text-slider text-style">Plato De Lechona</span>
-          <span class="text-slider text-style">Pasta Carbonara</span>
-          <span class="text-slider text-style">Lasaña</span>
-          <span class="text-slider text-style">Empanadas</span>
-          <span class="text-slider text-style">Pollito Broaster</span>
-          <span class="text-slider text-style">Hamburguesa Artesanal</span>
-          <span class="text-slider text-style">Plato De Lechona</span>
-          <span class="text-slider text-style">Pasta Carbonara</span>
-          <span class="text-slider text-style">Lasaña</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-<!-- Offer Section -->
-<div class="offer-section section-padding fix bg-title">
-  <div class="offer-shape">
-    <img src="assets/img/offer/offer-shape.png" alt="img" />
-  </div>
-  <div class="offer-wrapper3">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-6">
-          <div class="offer-card style1 rounded-5 wow fadeInUp"
-            data-wow-delay="0.5s"
-            style="background-image: url(assets/img/bg/offerBG2_2.jpg)">
-            <div class="offer-content">
-              <h6></h6>
-              <h3>Piloto Dingo Con Moto</h3>
-              <a hhref="#" class="theme-btn style4">
-                ORDENAR YA
-                <i class="fa-sharp fa-regular fa-arrow-right"></i>
-              </a>
+    </section>
+    <div class="offer-section section-padding fix bg-title">
+      <div class="offer-shape">
+        <img src="assets/img/offer/offer-shape.png" alt="img" />
+      </div>
+      <div class="offer-wrapper3">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div
+                class="offer-card style1 rounded-5 wow fadeInUp"
+                data-wow-delay="0.5s"
+                style="background-image: url(assets/img/bg/offerBG2_2.jpg)"
+              >
+                <div class="offer-content">
+                  <h6></h6>
+                  <h3>Piloto Dingo Con Moto</h3>
+                  <a hhref="#" class="theme-btn style4">
+                    ORDENAR YA
+                    <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="offer-thumb">
+                  <img
+                    class="thumbImg"
+                    src="assets/img/offer/offerThumb1_3.png"
+                    alt="thumb"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="offer-thumb">
-              <img class="thumbImg" src="assets/img/offer/offerThumb1_3.png" alt="thumb" />
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="offer-card style1 rounded-5 wow fadeInUp"
-            data-wow-delay="0.7s"
-            style="background-image: url(assets/img/bg/offerBG2_3.jpg)">
-            <div class="offer-content">
-              <h6 class="text-white"></h6>
-              <h3>Piloto Dingo Con Carro</h3>
-              <a hhref="#" class="theme-btn style4">
-                ORDENAR YA
-                <i class="fa-sharp fa-regular fa-arrow-right"></i>
-              </a>
-            </div>
-            <div class="offer-thumb">
-              <img class="thumbImg" src="assets/img/offer/offerThumb1_1.png" alt="thumb" />
+            <div class="col-lg-6">
+              <div
+                class="offer-card style1 rounded-5 wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="background-image: url(assets/img/bg/offerBG2_3.jpg)"
+              >
+                <div class="offer-content">
+                  <h6 class="text-white"></h6>
+                  <h3>Piloto Dingo Con Carro</h3>
+                  <a hhref="#" class="theme-btn style4">
+                    ORDENAR YA
+                    <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="offer-thumb">
+                  <img
+                    class="thumbImg"
+                    src="assets/img/offer/offerThumb1_1.png"
+                    alt="thumb"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-    <!-- Faq Section    S T A R T -->
     <div class="faq-section section-padding pb-0 fix">
       <div class="container">
         <div class="faq-wrapper-4">
@@ -1160,7 +1328,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                   class="title text-white text-start wow fadeInUp"
                   data-wow-delay="0.7s"
                 >
-                  Entregamos nuestra comida en tiempo record 
+                  Entregamos nuestra comida en tiempo record
                 </div>
               </div>
               <div class="faq-content-3">
@@ -1179,7 +1347,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                           aria-expanded="true"
                           aria-controls="faq1"
                         >
-                          ¿Cuál es el horario de funcionamiento del restaurante?
+                          ¿Cuál es el horario de funcionamiento del
+                          restaurante?
                         </button>
                       </h4>
                       <div
@@ -1188,7 +1357,9 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          Nuestros servicios son 24 horas y dependiendo de la disponivilidad de nuestros domiciliarios, la comida se entrega en un tiempo record de 30 minutos.
+                          Nuestros servicios son 24 horas y dependiendo de la
+                          disponivilidad de nuestros domiciliarios, la comida se
+                          entrega en un tiempo record de 30 minutos.
                         </div>
                       </div>
                     </div>
@@ -1214,7 +1385,9 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                         Nuestros Restaurantes ofrencen opciones vegetarianas y veganas, y si no lo tienen en el menu, nosotros lo conseguimos.
+                          Nuestros Restaurantes ofrencen opciones vegetarianas y
+                          veganas, y si no lo tienen en el menu, nosotros lo
+                          conseguimos.
                         </div>
                       </div>
                     </div>
@@ -1231,7 +1404,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                           aria-expanded="false"
                           aria-controls="faq3"
                         >
-                          ¿Cómo vender en Dingo Colombia si tengo un restaurante?
+                          ¿Cómo vender en Dingo Colombia si tengo un
+                          restaurante?
                         </button>
                       </h4>
                       <div
@@ -1240,7 +1414,10 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         data-bs-parent="#accordion"
                       >
                         <div class="accordion-body">
-                          Tendrias que contactarnos a nuestro correo para poder verificar y ir personalmente a tu restaurante y ver si cumples con los requisitos para poder vender en Dingo Colombia.
+                          Tendrias que contactarnos a nuestro correo para poder
+                          verificar y ir personalmente a tu restaurante y ver si
+                          cumples con los requisitos para poder vender en Dingo
+                          Colombia.
                         </div>
                       </div>
                     </div>
@@ -1299,7 +1476,6 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
-    <!-- Brand Section    S T A R T -->
     <div class="brand-section-3 fix section-padding">
       <div class="container">
         <div class="slider-area wow fadeInUp" data-wow-delay="0.5s">
@@ -1307,32 +1483,50 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_1.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_1.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_2.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_2.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_3.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_3.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_4.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_4.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_5.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_5.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="client-img text-center">
-                  <img src="assets/img/logo/clientLogoDark1_6.png" alt="logo" />
+                  <img
+                    src="assets/img/logo/clientLogoDark1_6.png"
+                    alt="logo"
+                  />
                 </div>
               </div>
             </div>
@@ -1340,7 +1534,6 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
-    <!-- Contact Section    S T A R T -->
     <section class="contact-section fix bg-color3">
       <div class="contact-wrapper style2 section-padding bg-img">
         <div class="container">
@@ -1368,10 +1561,16 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         <input type="text" placeholder="Nombre Completo" />
                       </div>
                       <div class="col-md-6">
-                        <input type="email" placeholder="Correo De La Empresa" />
+                        <input
+                          type="email"
+                          placeholder="Correo De La Empresa"
+                        />
                       </div>
                       <div class="col-md-6">
-                        <input type="number" placeholder="Número De Telefono" />
+                        <input
+                          type="number"
+                          placeholder="Número De Telefono"
+                        />
                       </div>
                       <div class="col-md-6">
                         <select
@@ -1380,7 +1579,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                           aria-label="guest number"
                         >
                           <option value="subject" selected="selected">
-                           Registrate como
+                            Registrate como
                           </option>
                           <option value="guestnumber">Socio</option>
                           <option value="guestnumber">Repartidor</option>
@@ -1399,7 +1598,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                           id="reviewcheck"
                           name="reviewcheck"
                           type="checkbox"
-                        ></label>
+                        />
                       </div>
                       <div class="col-12 form-group mb-0">
                         <button class="theme-btn w-100">
@@ -1458,12 +1657,12 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                     <div class="time">6:00 PM ⌚</div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Testimonial section  S T A R T -->
     <div class="testimonial-section section-padding pb-0 fix">
       <div class="testi-shape">
         <img src="assets/img/testimonial/testi-shape.png" alt="img" />
@@ -1486,7 +1685,7 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
               />
             </div>
             <h2 class="title wow fadeInUp" data-wow-delay="0.7s">
-              La Opinión De Nuestros Clientes 
+              La Opinión De Nuestros Clientes
             </h2>
           </div>
           <div class="slider-area">
@@ -1505,9 +1704,11 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         <img src="assets/img/icon/star2.svg" alt="icon" />
                       </div>
                       <p>
-                        La aplicación es muy fácil de usar y me encantó la variedad de restaurantes disponibles.
-                         El pedido llegó caliente y en buen estado. Lo único es que tardó un poco más de lo esperado, 
-                         pero en general quedé satisfecha. Sin duda volveré a pedir por aquí.
+                        La aplicación es muy fácil de usar y me encantó la
+                        variedad de restaurantes disponibles. El pedido llegó
+                        caliente y en buen estado. Lo único es que tardó un
+                        poco más de lo esperado, pero en general quedé
+                        satisfecha. Sin duda volveré a pedir por aquí.
                       </p>
                       <div class="fancy-box">
                         <div class="item2">
@@ -1534,9 +1735,11 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                         <img src="assets/img/icon/star2.svg" alt="icon" />
                       </div>
                       <p>
-                        "Excelente servicio, el repartidor fue muy amable y me mantuvo informado durante todo el trayecto. 
-                        La comida estaba deliciosa y bien empacada. 
-                        Solo mejoraría un poco los tiempos de entrega en horas pico. ¡Recomendado!"
+                        "Excelente servicio, el repartidor fue muy amable y me
+                        mantuvo informado durante todo el trayecto. La comida
+                        estaba deliciosa y bien empacada. Solo mejoraría un
+                        poco los tiempos de entrega en horas pico.
+                        ¡Recomendado!"
                       </p>
                       <div class="fancy-box">
                         <div class="item2">
@@ -1564,9 +1767,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
-    <br> </br>
-    <!-- Cta section  S T A R T -->
-    <!-- Work Process Section    S T A R T -->
+    <br />
+    </br>
     <div class="wcu-section section-padding fix bg-dark">
       <div class="wcu-wrapper style1">
         <div class="shape1 d-none d-xxl-block float-bob-y">
@@ -1612,7 +1814,9 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                   <div class="item">
                     <h6>Pon la direccion del establecimiento</h6>
                     <p>
-                      Poner tu direccion nos facilita a que el cliente pueda saber donde queda el local y que el repartidor se diriga hacia alla  
+                      Poner tu direccion nos facilita a que el cliente pueda
+                      saber donde queda el local y que el repartidor se diriga
+                      hacia alla
                     </p>
                   </div>
                 </div>
@@ -1625,7 +1829,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                   <div class="item">
                     <h6>Selecciona tu especialidad</h6>
                     <p>
-                      Especificar el tipo de comida a la que te dedicas ayuda al cliente a escoger
+                      Especificar el tipo de comida a la que te dedicas ayuda
+                      al cliente a escoger
                     </p>
                   </div>
                 </div>
@@ -1636,10 +1841,8 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                     </div>
                   </div>
                   <div class="item">
-                    <h6>Poder recibir pagos en efectivo o online </h6>
-                    <p>
-                     Ayuda al cliente a poder pagar con facilidad
-                    </p>
+                    <h6>Poder recibir pagos en efectivo o online</h6>
+                    <p>Ayuda al cliente a poder pagar con facilidad</p>
                   </div>
                 </div>
               </div>
@@ -1653,7 +1856,6 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
         </div>
       </div>
     </div>
-    <!-- Blog Section    S T A R T -->
     <section class="blog-section section-padding fix">
       <div class="blog-wrapper style2">
         <div class="shape1">
@@ -1714,11 +1916,11 @@ En Dingo, somos una empresa líder en logística de alimentos a domicilio, espec
                       <h3>Andrés López</h3>
                     </a>
                     <p>
-                     Edad: 27 años
-Tiempo en Dingo: 1 año y 8 meses
-Biografía: Andrés es conocido por su puntualidad y energía.
- Siempre tiene una sonrisa para los clientes y rara vez llega tarde a una entrega.
-  Su record personal es entregar 32 pedidos en un solo día.
+                      Edad: 27 años Tiempo en Dingo: 1 año y 8 meses
+                      Biografía: Andrés es conocido por su puntualidad y
+                      energía. Siempre tiene una sonrisa para los clientes y
+                      rara vez llega tarde a una entrega. Su record personal es
+                      entregar 32 pedidos en un solo día.
                     </p>
                     <a hhref="blog-details.html" class="link-btn">
                       <i class="fa-solid fa-arrow-right-long"></i>
@@ -1759,11 +1961,11 @@ Biografía: Andrés es conocido por su puntualidad y energía.
                       <h3>María Fernanda Ríos</h3>
                     </a>
                     <p>
-                     Edad: 24 años
-Tiempo en Dingo: 10 meses
-Biografía: Estudiante universitaria que combina sus estudios con las entregas.
- María se ha ganado la confianza de los usuarios por su amabilidad y cuidado con los pedidos,
-  asegurando que siempre lleguen en perfecto estado.
+                      Edad: 24 años Tiempo en Dingo: 10 meses Biografía:
+                      Estudiante universitaria que combina sus estudios con las
+                      entregas. María se ha ganado la confianza de los usuarios
+                      por su amabilidad y cuidado con los pedidos, asegurando
+                      que siempre lleguen en perfecto estado.
                     </p>
                     <a hhref="blog-details.html" class="link-btn">
                       <i class="fa-solid fa-arrow-right-long"></i>
@@ -1804,11 +2006,12 @@ Biografía: Estudiante universitaria que combina sus estudios con las entregas.
                       <h3>Carlos Mejía</h3>
                     </a>
                     <p>
-                     Edad: 31 años
-Tiempo en Dingo: 2 años y 3 meses
-Biografía: Carlos es uno de los repartidores más experimentados.
- Conoce las calles de la ciudad como la palma de su mano y siempre encuentra la ruta más rápida.
-  Ha sido elegido repartidor del mes en tres ocasiones por su compromiso.
+                      Edad: 31 años Tiempo en Dingo: 2 años y 3 meses
+                      Biografía: Carlos es uno de los repartidores más
+                      experimentados. Conoce las calles de la ciudad como la
+                      palma de su mano y siempre encuentra la ruta más rápida.
+                      Ha sido elegido repartidor del mes en tres ocasiones por
+                      su compromiso.
                     </p>
                     <a hhref="blog-details.html" class="link-btn">
                       <i class="fa-solid fa-arrow-right-long"></i>
@@ -1821,159 +2024,199 @@ Biografía: Carlos es uno de los repartidores más experimentados.
         </div>
       </div>
     </section>
-    <!-- Footer Section    S T A R T -->
-   <footer class="footer-section bg-title fix">
-        <div class="footer-widgets-wrapper">
-            <div class="shape1 float-bob-y d-none d-xxl-block"><img src="assets/img/shape/footerShape1_1.png"
-                    alt="shape"></div>
-            <div class="shape2 d-none d-xxl-block"><img src="assets/img/shape/footerShape1_2.png" alt="shape"></div>
-            <div class="shape3 d-none d-xxl-block"><img src="assets/img/shape/footerShape1_3.png" alt="shape"></div>
-            <div class="shape4  d-none d-xxl-block"><img src="assets/img/shape/footerShape1_4.png" alt="shape"></div>
-            <div class="container">
-                <div class="footer-top">
-                    <div class="row gy-4">
-                        <div class="col-lg-4">
-                            <div class="fancy-box">
-                                <div class="item1"><i class="fa-solid fa-location-dot"></i></div>
-                                <div class="item2">
-                                    <h6>Dirección</h6>
-                                    <p>Cra. 74a #52, Bogotá</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex justify-content-start justify-content-lg-end">
-                            <div class="fancy-box">
-                                <div class="item1"><i class="fa-solid fa-envelope"></i></div>
-                                <div class="item2">
-                                    <h6>Gmail Corporativo</h6>
-                                    <p>dingofods@gmail.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex justify-content-start justify-content-lg-end">
-                            <div class="fancy-box">
-                                <div class="item1"><i class="fa-regular fa-phone-volume"></i></div>
-                                <div class="item2">
-                                    <h6>Numero De Emergencia</h6>
-                                    <p>+57 317 3538 933</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
-                                <a href="index.html">
-                                    <img src="assets/img/logo/logoWhite.svg" alt="logo-img">
-                                </a>
-                            </div>
-                            <div class="footer-content">
-                                <p>
-                                    En Dingo, somos una empresa líder en logística de alimentos a domicilio, especializada en ofrecer una experiencia culinaria completa y eficiente. Con un enfoque integral, combinamos una amplia variedad de platos —desde comida rápida hasta opciones saludables— con una operación logística optimizada que asegura entregas rápidas, seguras y puntuales.
-                                </p>
-                                <div class="social-icon d-flex align-items-center">
-                                    <a hhref="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a hhref="#"><i class="fab fa-twitter"></i></a>
-                                    <a hhref="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a hhref="#"><i class="fa-brands fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
-                                <h3>Links Rapidos</h3>
-                            </div>
-                            <ul class="list-area">
-                                <li>
-                                    <a href="about.html">
-                                        <i class="fa-solid fa-chevrons-right"></i>
-                                        Sobre Nosotros
-                                    </a>
-                                </li>
-                                </li>
-                                <li>
-                                    <a href="contact.html">
-                                        <i class="fa-solid fa-chevrons-right"></i>
-                                        Contactanos
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
-                                <h3>Contactanos</h3>
-                            </div>
-                            <ul class="list-area">
-                                <li class="mb-2">
-                                    Lunes – Lunes: <span class="text-theme-color2"> 8am – 12am </span>
-                                </li>
-                                <li>
-                                    Sabado <span class="text-theme-color2"> 8am – 12am </span>
-                                </li>
-                            </ul>
-                            <form action="#" class="mt-4">
-                                <div class="form-control">
-                                    <input class="email" type="email" placeholder="Correo Electrónico">
-                                    <button type="submit" class="submit-btn"><i
-                                            class="fa-solid fa-arrow-right-long"></i></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <footer class="footer-section bg-title fix">
+      <div class="footer-widgets-wrapper">
+        <div class="shape1 float-bob-y d-none d-xxl-block">
+          <img src="assets/img/shape/footerShape1_1.png" alt="shape" />
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                    <p class="wow fadeInLeft" data-wow-delay=".3s">
-                        © All Copyright 2025 by <a href=".html">Colegio La Nueva Estancia by Dingo</a>
-                    </p>
-                    <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
-                        <li>
-                            <a class="text-white" hhref="contact.html">
-                                Terms & Condition
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-white" hhref="contact.html">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="shape2 d-none d-xxl-block">
+          <img src="assets/img/shape/footerShape1_2.png" alt="shape" />
         </div>
+        <div class="shape3 d-none d-xxl-block">
+          <img src="assets/img/shape/footerShape1_3.png" alt="shape" />
+        </div>
+        <div class="shape4 d-none d-xxl-block">
+          <img src="assets/img/shape/footerShape1_4.png" alt="shape" />
+        </div>
+        <div class="container">
+          <div class="footer-top">
+            <div class="row gy-4">
+              <div class="col-lg-4">
+                <div class="fancy-box">
+                  <div class="item1">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="item2">
+                    <h6>Dirección</h6>
+                    <p>Cra. 74a #52, Bogotá</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 d-flex justify-content-start justify-content-lg-end"
+              >
+                <div class="fancy-box">
+                  <div class="item1"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="item2">
+                    <h6>Gmail Corporativo</h6>
+                    <p>dingofods@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-4 d-flex justify-content-start justify-content-lg-end"
+              >
+                <div class="fancy-box">
+                  <div class="item1">
+                    <i class="fa-regular fa-phone-volume"></i>
+                  </div>
+                  <div class="item2">
+                    <h6>Numero De Emergencia</h6>
+                    <p>+57 317 3538 933</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <a href="index.html">
+                    <img src="assets/img/logo/logoWhite.svg" alt="logo-img" />
+                  </a>
+                </div>
+                <div class="footer-content">
+                  <p>
+                    En Dingo, somos una empresa líder en logística de alimentos
+                    a domicilio, especializada en ofrecer una experiencia
+                    culinaria completa y eficiente. Con un enfoque integral,
+                    combinamos una amplia variedad de platos —desde comida
+                    rápida hasta opciones saludables— con una operación
+                    logística optimizada que asegura entregas rápidas, seguras
+                    y puntuales.
+                  </p>
+                  <div class="social-icon d-flex align-items-center">
+                    <a hhref="#"><i class="fab fa-facebook-f"></i></a>
+                    <a hhref="#"><i class="fab fa-twitter"></i></a>
+                    <a hhref="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a hhref="#"><i class="fa-brands fa-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Links Rapidos</h3>
+                </div>
+                <ul class="list-area">
+                  <li>
+                    <a href="about.html">
+                      <i class="fa-solid fa-chevrons-right"></i>
+                      Sobre Nosotros
+                    </a>
+                  </li>
+                  </li>
+                  <li>
+                    <a href="contact.html">
+                      <i class="fa-solid fa-chevrons-right"></i>
+                      Contactanos
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Contactanos</h3>
+                </div>
+                <ul class="list-area">
+                  <li class="mb-2">
+                    Lunes – Lunes:
+                    <span class="text-theme-color2"> 8am – 12am </span>
+                  </li>
+                  <li>
+                    Sabado <span class="text-theme-color2"> 8am – 12am </span>
+                  </li>
+                </ul>
+                <form action="#" class="mt-4">
+                  <div class="form-control">
+                    <input
+                      class="email"
+                      type="email"
+                      placeholder="Correo Electrónico"
+                    />
+                    <button type="submit" class="submit-btn">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div
+            class="footer-wrapper d-flex align-items-center justify-content-between"
+          >
+            <p class="wow fadeInLeft" data-wow-delay=".3s">
+              © All Copyright 2025 by
+              <a href=".html">Colegio La Nueva Estancia by Dingo</a>
+            </p>
+            <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
+              <li>
+                <a class="text-white" hhref="contact.html">
+                  Terms & Condition
+                </a>
+              </li>
+              <li>
+                <a class="text-white" hhref="contact.html">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!--<< All JS Plugins >>-->
+    <div class="container-boton">
+      <a
+        href="https://wa.me/573173538933?text=Quiero%20saber%20m%C3%A1s%20sobre%20sus%20servicios"
+        target="_blank"
+      >
+        <img
+          class="boton"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
+          alt="WhatsApp"
+        />
+      </a>
+    </div>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--<< Bootstrap Js >>-->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--<< Waypoints Js >>-->
     <script src="assets/js/jquery.waypoints.js"></script>
-    <!--<< Counterup Js >>-->
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--<< Viewport Js >>-->
     <script src="assets/js/viewport.jquery.js"></script>
-    <!--<< Magnific popup Js >>-->
     <script src="assets/js/magnific-popup.min.js"></script>
-    <!--<< Tilt Js >>-->
     <script src="assets/js/tilt.min.js"></script>
-    <!--<< Swiper Slider Js >>-->
     <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--<< MeanMenu Js >>-->
     <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--<< Wow Animation Js >>-->
     <script src="assets/js/wow.min.js"></script>
-    <!--<< Nice Select Js >>-->
     <script src="assets/js/nice-select.min.js"></script>
-    <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
